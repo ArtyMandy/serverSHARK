@@ -7,7 +7,6 @@ paramiko
 django-form-utils
 pymongo
 django-bootstrap3
-git+http://github.com/ouhouhsami/django-progressbarupload.git#egg=django-progressbarupload
 requests
 sshtunnel
 pygit2 == 0.26.2
