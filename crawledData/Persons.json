@@ -1,0 +1,11 @@
+{
+    "_id" : ObjectId("5dc7fc42ef493d29a7b9c067"),
+    "email" : "sduenas@bitergia.com",
+    "name" : "Santiago Dueñas"
+}
+{
+    "_id" : ObjectId("5dc7fe42aff9e4d5cfcd66c6"),
+    "email" : "null",
+    "name" : "Santiago Dueñas",
+    "username" : "sduenas"
+}

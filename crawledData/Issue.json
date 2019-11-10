@@ -1,0 +1,20 @@
+{
+    "_id" : ObjectId("5dc7fe86b82a418951f60f83"),
+    "external_id" : "75",
+    "issue_system_id" : ObjectId("5dc7fe40b82a418951f60d1a"),
+    "title" : "Use Perceval summary",
+    "desc" : "Since Perceval incorporates a summary object with the result of a fetching process (see chaoss/grimoirelab-perceval/issues/529), Arthur doesn't need to generate this summary by its own.\r\n\r\n`JobResult` and `PercevalJob` classes should be rewritten to add the information that comes from Perceval.",
+    "created_at" : ISODate("2019-09-23T11:42:31.000Z"),
+    "updated_at" : ISODate("2019-10-20T15:53:55.000Z"),
+    "creator_id" : ObjectId("5dc7fe42aff9e4d5cfcd66c6"),
+    "reporter_id" : ObjectId("5dc7fe42aff9e4d5cfcd66c6"),
+    "status" : "closed",
+    "affects_versions" : [],
+    "components" : [],
+    "labels" : [
+        "enhancement"
+    ],
+    "issue_type_manual" : {},
+    "fix_versions" : [],
+    "issue_links" : []
+}
