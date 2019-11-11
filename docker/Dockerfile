@@ -46,8 +46,8 @@ RUN pip install --upgrade pip
 #COPY /srv/www/serverSHARK/server/settings_template_vagrant.py /srv/www/serverSHARK/server/settings.py
 #COPY /srv/www/serverSHARK/server/settings_template_vagrant.py ~/
 
-COPY ./test.sh /
-RUN chmod +x /test.sh
+COPY ./docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
 RUN pwd
 
-ENTRYPOINT /test.sh ${MYSQLPASSWORD}
+ENTRYPOINT /docker-entrypoint.sh ${MYSQLPASSWORD}
